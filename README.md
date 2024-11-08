@@ -1,0 +1,2 @@
+# Create-m-u-x-a-s-l-o-n
+fn main() {     let digits = [1, 2, 3, 4, 5, 6, 7, 8];      for &amp;m in &amp;digits {         for &amp;u in &amp;digits {             if u == m { continue; }             for &amp;x in &amp;digits {                 if x == m || x == u { continue; }                 for &amp;a in &amp;digits {                     if a == m || a == u || a == x { continue; }                     
